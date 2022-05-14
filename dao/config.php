@@ -1,8 +1,8 @@
 <?Php
-$config = array('host'=>'localhost',
-				'username'=>'root',
-				'password'=>'',
-				'database'=>'registration');
+$config = array('host'=>'sql6.freesqldatabase.com',
+				'username'=>'sql6491943',
+				'password'=>'ZZllj2tUyW',
+				'database'=>'sql6491943');
 $db = new mysqli($config['host'],
 				 $config['username'],
 				 $config['password'],
@@ -11,7 +11,7 @@ if(mysqli_connect_error()){
 	echo"error: could not connect to database".mysqli_connect_error();
 }
 else{
-	//echo "Database connection established successfully";
+	echo "Database connection established successfully";
 }
 
 ?>
